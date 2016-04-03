@@ -23,8 +23,15 @@ h1, h2, h3, h4 {
     font-family: 'Bangers', cursive;
 }
 
+.btn {
+    float: right;
+}
+
 .date {
     color: #828282;
+    float: right;
+    margin-left: 12px;
+    margin-right: 40px;
 }
 
 .save {
@@ -37,9 +44,9 @@ h1, h2, h3, h4 {
 
 .top-menu, .top-menu:hover, .top-menu:visited {
     color: #ffffff;
-    float: right;
     font-size: 26pt;
-    margin-right: 20px;
+    float: right;
+    margin-top: 20px;
 }
 
 .post {
@@ -49,3 +56,4 @@ h1, h2, h3, h4 {
 .post h1 a, .post h1 a:visited {
     color: #000;
 }
+
